@@ -1,22 +1,10 @@
-// Desestructuración
-// Asignación Desestrcuturante
+import {heroes} from './data/heroes'
 
-const persona = {
-    nombre: 'Tony',
-    edad: 45,
-    clave: 'IronMan'
+
+const getHeroeById = () => {
+    return {};
 }
 
 
 
-//console.log(nombre)
-//console.log(edad)
-//console.log(clave)
-
-const retornaPersona = ({nombre, edad, clave }) => {
-
-
-    console.log(nombre, edad, clave )
-}
-
-retornaPersona(persona)
+console.log()
